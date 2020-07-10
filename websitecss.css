@@ -99,3 +99,11 @@ html, body {
   margin-right: auto;
   pointer-events: none;
 }
+.ci {
+  display: block;
+  border: black;
+  width: 400px;
+  max-height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
