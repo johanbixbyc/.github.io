@@ -3,17 +3,18 @@
 		<style>
 			a { text-decoration: none; }
 		</style>
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap');
-		</style>
 		<link rel="stylesheet" type="text/css" href="websitecss.css">
 	</head>
 		<body>
+		
 		<h2> Johan B. Christensen</img> </h2>
 		
 		
-		<p> Links <br>
-		<a href="cv.html"> CV </href>
+		
+	<div class="sidenav">
+  <button class="dropdown-btn">Links</button>
+  <div class="dropdown-container">
+    <a href="cv.html"> CV </href>
 		<br>
 		<a href="writing.html"> Writing </href>
 		<br>
@@ -22,12 +23,30 @@
 		<a href="photography.html"> Photography </href>
 		<br>
 		<a href="other.html"> Other </href>
-		</a>
-		</p>
+  </div>
+</div>
+
+
 		<div class="cf">
 		<img src="a.png" class="center"> </img>
 		<img src="JBC.png" class="center" width="100px"> </img>
 		</div>
+		<script>
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+		</script>
 		
 		</body>
 </html>
