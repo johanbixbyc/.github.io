@@ -1,14 +1,14 @@
 body {
   background-color: white;
-  font-family: "Times New Roman", serif;
+  font-family:"EB Garamond", serif;
 }
-
 
 h1 {
   color: black;
   margin-left: 20px;
 }
 h2 {
+  font-family:"garamond", serif;
   color: black;
   text-align: center;
 }
@@ -48,6 +48,68 @@ html, body {
     height: 100%;
     margin: 0;
 }
+.fade-in {
+animation: fadeIn ease 2s;
+-webkit-animation: fadeIn ease 2s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 2s;
+-ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+.fade-infast {
+animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 1s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 1s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
 .sidenav {
   height: 100%;
   width: 200px;
@@ -71,7 +133,7 @@ html, body {
   text-align: left;
   cursor: pointer;
   outline: none;
-  font-family: "Times New Roman", serif;
+  font-family: "Garamond", serif;
   font-size: 12pt;
 }
 .dropdown-container {
