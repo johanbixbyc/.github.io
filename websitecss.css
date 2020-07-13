@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+
 body {
   background-color: white;
   font-family:"EB Garamond", serif;
@@ -8,7 +10,8 @@ h1 {
   margin-left: 20px;
 }
 h2 {
-  font-family:"garamond", serif;
+  font-family:"Crimson Text", serif;
+  font-weight: 600;
   color: black;
   text-align: center;
   padding-top: 16px;
