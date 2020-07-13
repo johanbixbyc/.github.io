@@ -123,6 +123,20 @@ animation: fadeIn ease 1s;
   border: none;
   background: none;
 }
+.description {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 54px;
+  padding-right: 20px;
+  border: none;
+  background: none;
+  text-align: right;
+}
 
 .sidenav a, .dropdown-btn {
   padding: 34px 20px 10px 30px;
