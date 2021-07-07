@@ -105,6 +105,7 @@ animation: fadeIn ease 1s;
 0% {opacity:0;}
 100% {opacity:1;}
 }
+image-rendering: -webkit-optimize-contrast;
 
 @-o-keyframes fadeIn {
 0% {opacity:0;}
@@ -129,17 +130,17 @@ animation: fadeIn ease 1s;
 }
 .description {
   height: 100%;
-  width: 200px;
+  width: 260px;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
   overflow-x: hidden;
   padding-top: 54px;
-  padding-right: 20px;
+  padding-right: 40px;
   border: none;
   background: none;
-  text-align: right;
+  text-align: justify;
 }
 
 .sidenav a, .dropdown-btn {
@@ -169,12 +170,14 @@ animation: fadeIn ease 1s;
 
 .center {
   display: block;
-  max-width: 100%;
+  max-width: 460px;
   max-height: 100%;
   margin-left: auto;
   margin-right: auto;
   pointer-events: none;
   text-align: justify;
+  text-indent: 0px;
+  padding-left: -50px;
 }
 .cf {
   display: block;
@@ -183,7 +186,7 @@ animation: fadeIn ease 1s;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  text-indent: 50px;
+  text-indent: 0px;
 }
 .cfi {
   display: block;
@@ -193,7 +196,7 @@ animation: fadeIn ease 1s;
   margin-left: auto;
   margin-right: auto;
   text-align: justify;
-  text-indent: 50px;
+  text-indent: 0px;
 }
 .cii {
   display: block;
