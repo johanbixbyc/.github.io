@@ -34,7 +34,7 @@ h6 {
   margin-left: 20px;
 }
 p	{ 
-	margin-left: 40px;
+	margin-left: 0px;
 }
 
 a	{
@@ -175,9 +175,18 @@ image-rendering: -webkit-optimize-contrast;
   margin-left: auto;
   margin-right: auto;
   pointer-events: none;
+  text-align: center;
+  text-indent: 0px;
+}
+.justified {
+  display: block;
+  max-width: 460px;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  pointer-events: none;
   text-align: justify;
   text-indent: 0px;
-  padding-left: -50px;
 }
 .cf {
   display: block;
@@ -185,7 +194,7 @@ image-rendering: -webkit-optimize-contrast;
   max-height: 50%;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: center;
   text-indent: 0px;
 }
 .cfi {
@@ -195,7 +204,7 @@ image-rendering: -webkit-optimize-contrast;
   max-height: 50%;
   margin-left: auto;
   margin-right: auto;
-  text-align: justify;
+  text-align: center;
   text-indent: 0px;
 }
 .cii {
