@@ -133,8 +133,8 @@ image-rendering: -webkit-optimize-contrast;
 .description {
   height: 100%;
   width: 260px;
-  position: relative;
-  z-index: 1;
+  position: fixed;
+  z-index: 0;
   top: 0;
   right: 0;
   margin-left: auto;
@@ -229,7 +229,7 @@ image-rendering: -webkit-optimize-contrast;
   margin-right: auto;
   text-align: center;
   text-indent: 0px;
-  position: relative;
+  position: static;
   padding-top: 32px;
 }
 .cfi {
